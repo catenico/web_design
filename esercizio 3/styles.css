@@ -1,0 +1,12 @@
+body {background-color: rgb(141, 141, 141);}
+h1 {
+    font-size: 32px;
+    color: antiquewhite;
+}
+p {font-size: 13px;
+text-align: justify;
+line-height: 1.5;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(255, 252, 248) }
+figure { margin: 0px;}
+img { height: 35px;}
