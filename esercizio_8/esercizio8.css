@@ -1,0 +1,62 @@
+#image {
+    width: 60%;
+    max-width: 100%;
+}
+
+@media (max-width: 200px) {
+    img {
+        width: 100%;
+    }
+}
+
+.open {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+}
+
+header {
+    background-color: bisque;
+}
+
+main {
+    background-color: rgb(242, 232, 219);
+}
+
+footer {
+    background-color: antiquewhite;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 1px;
+}
+
+h4 {
+    text-align: justify;
+}
+
+#tribute-info {
+    text-align: justify;
+}
+
+#tribute-link {
+    color: brown;
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    color: white
+}
